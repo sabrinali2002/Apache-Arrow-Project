@@ -1,4 +1,4 @@
-Apache Arrow Memory Use
+#Apache Arrow Memory Use
 Sabrina Li
 
 	The goal for this Apache Arrow experiment is to find how effective dictionary encoding and storing in-memory Arrow objects as Feather using compression configurations (LZ4 or ZSTD) is in reducing Arrow object memory consumption. To do this, various datasets were loaded into Arrow and turned into Arrow objects of which the sizes with dictionary encoding, without dictionary encoding, with compression and without dictionary encoding, and with both dictionary encoding and compression were compared using pyarrow code. 
